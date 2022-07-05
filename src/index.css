@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar-fluid {
+    background: white;
+    width: 83%;
+    height: 65px;
+    left: 8rem;
+    position: relative;
+    overflow-x: clip;
+  
+  }
+  
+  .navbar-fluid .links1 {
+    left: 1rem;
+    display: flex;
+    width: 27%;
+    justify-content: space-around;
+    position: absolute;
+    padding: 18px;
+    left: 20rem;
+    list-style: none;
+  }
+  
+  
+  .navbar-fluid .links2 {
+    display: flex;
+    width: 27%;
+    justify-content: space-around;
+    position: absolute;
+    padding: 18px;
+    left: 59rem;
+    list-style: none;
+  
+  }
+  
+  .navbar {
+    width: 83%;
+    height: 65px;
+    background: white;
+    left: 8rem;
+    position: relative;
+  
+  }
+  
+  
+  
+  .navbar ul {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    color: black;
+    list-style: none;
+  }
+  
+  .logo {
+    position: absolute;
+    margin-top: 10px;
+    left: 1rem;
+    font-size: 26px;
+    color: #295091;
+  }
+  
+  .navbar .toggle-icon {
+    display: none;
+  }
+  
+  .btn1 {
+    width: 146px;
+    height: 40px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    margin: -10px;
+    color: white;
+  
+  }
+  
+  
+  .rasm {
+    background-image: url(./img/NavbarRasm.png);
+    width: 83%;
+    height: 6rem;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 8rem;
+    background-size: cover;
+    margin-bottom: 1rem;
+  
+  }
+  
+  .main-fluid {
+    width: 100%;
+    height: 800px;
+  }
+  
+  
+  
+  .main {
+    height: 185vh;
+    width: 100%;
+  
+  }
+  
+  .case {
+    position: absolute;
+    display: flex;
+    left: 7rem;
+  
+  }
+  
+  .wrapper {
+    width: 450px;
+    height: 690px;
+  
+    margin-left: 1rem;
+  }
+  
+  .case .wrapper-fluid {
+    width: 62%;
+  
+  
+  }
+  
+  
+  .wrapper-fluid .prezedent {
+    margin: 10px;
+  }
+  
+  .wrapper .portret {
+    margin-top: 10px;
+    width: 450px;
+    height: 470px;
+  }
+  
+  .urn {
+    height: 150px;
+    margin-top: 13px;
+  }
+  
+  ght {
+    font-size: 20px;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+  }
+  
+  abbr {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    color: #7688A4;
+  }
+  
+  h5 {
+    position: absolute;
+    width: 794px;
+    margin: 10px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  }
+  
+  
+  .main-fluid h2 {
+    margin-left: 7.3rem;
+    font-size: 35px;
+    line-height: 5rem;
+  }
+  
+  .content {
+    width: 416px;
+    height: 320px;
+    margin: 6px;
+    border-radius: 5px;
+  }
+  
+  
+  .case-fluid {
+    position: absolute;
+    display: flex;
+    left: 7rem;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  
+  
+  
+  .wrappers {
+    width: 83%;
+    height: 6rem;
+    position: relative;
+    left: 8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .wrappers-navbar {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    list-style: none;
+    padding: 29px;
+  }
+  
+  
+  
+  .contact {
+    width: 100%;
+    height: 100vh;
+    background: aqua;
+  }
+  
+  .contact-fluid {
+    width: 83%;
+    height: 100%;
+    position: relative;
+    left: 8rem;
+    margin-bottom: 1rem;
+    border: 1px solid;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .footer {
+    width: 100%;
+    height: 225px;
+    color: white;
+    background: #295093;
+  }
+  
+  .footer .btn2 {
+    width: 146px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #295093;
+  }
+  
+  .footer-ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    list-style: none;
+  
+  }
+  
+  
+  
+  .footer-ul2 {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    list-style: none;
+  
+  }
+  
+  .footer-ul2 li {
+    width: 365px;
+    height: 131px;
+    top: 1936px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width:576px) {
+    .navbar-fluid {
+      width: 100%;
+      left: 0rem;
+      position: relative;
+  
+  
+    }
+  
+    .navbar-fluid .links1 {
+      display: none;
+    }
+  
+    .navbar-fluid .links2 {
+      width: 76%;
+      position: absolute;
+      left: 0rem;
+      z-index: 999;
+      top: 5rem;
+    }
+  
+    .navbar {
+      position: relative;
+      transition: 0.5s height ease-in-out;
+      left: 0rem;
+      width: 100%;
+    }
+  
+    .navbar.expanded {
+      height: 100vh;
+      overflow: hidden;
+    }
+  
+    .navbar.expanded ul {
+      position: absolute;
+      top: 120px;
+      left: 0;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      left: 5rem;
+      overflow: hidden;
+  
+    }
+  
+    .navbar.expanded ul li {
+      margin: 15px 0;
+      font-size: 24px;
+    }
+  
+    .navbar.expanded ul a {
+      margin: 15px 0;
+      font-size: 24px;
+    }
+  
+    .logo {
+      position: absolute;
+      margin-top: 24px;
+      left: 1rem;
+      font-size: 25px;
+    }
+  
+    .navbar .toggle-icon {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  
+    .navbar ul {
+      display: none;
+    }
+  
+  
+  
+    .rasm {
+      height: 3rem;
+      width: 100%;
+      position: relative;
+      left: 0rem;
+      background-size: contain;
+    }
+  
+    .main {
+      height: 360vh;
+      width: 100%;
+    }
+  
+    .case {
+      position: relative;
+      display: block;
+      left: 0rem;
+    }
+  
+  
+  
+    .wrapper {
+      margin-left: 0rem;
+      position: relative;
+      top: 0rem;
+      width: 100%;
+  
+    }
+  
+    .wrapper .portret {
+      margin-top: 10px;
+      width: 100%;
+      height: 470px;
+    }
+  
+    .prezedent {
+      width: 100%;
+      margin: 0;
+    }
+  
+  
+  
+    abbr {
+      position: relative;
+      top: 2rem;
+      left: 1rem;
+      color: #7688A4;
+    }
+  
+  
+    .wrapper-fluid h5 {
+      width: 100%;
+      position: relative;
+      margin-top: 1rem;
+      margin: 0;
+    }
+  
+    .main {
+      height: 2604px;
+  
+    }
+  
+    .main-fluid {
+      height: 133rem;
+      top: 0;
+    }
+  
+    .main-fluid h2 {
+      line-height: 2rem;
+      text-align: center;
+      margin-left: 0;
+    }
+  
+    .case-fluid {
+  
+      position: relative;
+      display: inline-block;
+      left: 0;
+      margin-left: 1rem;
+      top: 0rem;
+    }
+  
+    .case-fluid .content {
+  
+      width: 100%;
+      height: 305px;
+      border-radius: 5px;
+      margin: 0;
+    }
+  
+  
+  
+    .footer {
+      width: 100%;
+      height: 78vh;
+      width: 100%;
+      height: 78vh;
+      position: relative;
+  
+    }
+  
+    .footer-ul {
+      display: block;
+      left: 0;
+      line-height: 28px;
+      margin-left: 1rem;
+    }
+  
+  
+  
+    .footer-ul2 {
+      display: block;
+      left: 0;
+      margin-top: 2rem;
+      margin-left: 1rem;
+    }
+  
+    .footer-ul2 li {
+      width: 365px;
+      height: 131px;
+      font-size: 14px;
+      color: #FFFFFF;
+  
+    }
+  
+    .wrapper-fluid {
+      margin-left: 1rem;
+    }
+  
+    .wrappers {
+      width: 100%;
+      height: 17rem;
+      position: relative;
+      left: 0rem;
+      margin-bottom: 2rem;
+    }
+  
+    .wrappers-navbar {
+      display: block;
+      line-height: 3rem;
+    }
+  
+  
+  
+    .column {
+      width: 100%;
+      height: 430vh;
+      display: block;
+    }
+  
+  
+    .column-fluid {
+      width: 100%;
+      height: 60%;
+      position: relative;
+      left: 0rem;
+      margin-bottom: 1rem;
+    }
+  
+    .column-cards {
+      width: 100%;
+      height: 170px;
+      display: contents;
+      margin-top: 1rem;
+  
+    }
+  
+    .column-img {
+      width: 100%;
+    }
+  
+    .case .wrapper-fluid {
+      width: 100%;
+  
+  
+    }
+  
+  }
